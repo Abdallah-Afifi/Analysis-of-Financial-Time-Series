@@ -7,7 +7,7 @@
    - In the program, we perform N extractions from the Max Heap and Min Heap (for N highest and N lowest exchange rates each). Therefore, the overall time complexity for extracting from both heaps is O(N log N).
 
 3. **Finding Maximum Subsequence Sum:**
-   - The algorithm for finding the maximum subsequence sum is linear and iterates through the input sequence once. Each iteration involves constant time operations.
+   - The algorithm finding the maximum subsequence sum is linear and iterates through the input sequence once. Each iteration involves constant time operations.
    - Therefore, the time complexity for finding the maximum subsequence sum is O(N), where N is the size of the input sequence.
 
 4. **Calculating Average:**
@@ -23,4 +23,7 @@
    - The additional space required for the heaps is also proportional to the input data size but is generally smaller than the input data size.
 
 In summary, the overall time complexity of the program is O(N log N), where N is the size of the input data. The space complexity is O(N). The dominant factors are the heap operations for finding the N highest and N lowest exchange rates.
+
+Overall, heap operations are the dominating factors in terms of time complexity. Therefore, the total time complexity of the program can be expressed as O(nlogn)+O(nlogn)+O(n)+O(n)=O(nlogn), 
+where n is the number of elements in the dataset.
 
